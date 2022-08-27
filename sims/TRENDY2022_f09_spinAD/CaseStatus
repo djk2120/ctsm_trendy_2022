@@ -1,0 +1,67 @@
+2022-08-27 07:59:12: xmlchange success <command> ./xmlchange CLM_ACCELERATED_SPINUP=on  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:12: xmlchange success <command> ./xmlchange NTASKS_CPL=2520  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:13: xmlchange success <command> ./xmlchange NTASKS_LND=2520  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:13: xmlchange success <command> ./xmlchange NTASKS_ICE=2520  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:13: xmlchange success <command> ./xmlchange NTASKS_OCN=2520  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:14: xmlchange success <command> ./xmlchange NTASKS_ROF=2520  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:14: xmlchange success <command> ./xmlchange NTASKS_GLC=2520  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:14: xmlchange success <command> ./xmlchange NTASKS_WAV=2520  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:15: xmlchange success <command> ./xmlchange JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:15: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:15: xmlchange success <command> ./xmlchange PROJECT=P93300641  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:16: xmlchange success <command> ./xmlchange RUN_STARTDATE=0000-01-01  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:16: xmlchange success <command> ./xmlchange STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:16: xmlchange success <command> ./xmlchange STOP_N=100  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:16: xmlchange success <command> ./xmlchange RESUBMIT=5  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:17: xmlchange success <command> ./xmlchange DOUT_S=TRUE  </command>
+ ---------------------------------------------------
+2022-08-27 07:59:17: case.setup starting 
+ ---------------------------------------------------
+2022-08-27 07:59:19: case.setup success 
+ ---------------------------------------------------
+2022-08-27 07:59:20: case.build starting 
+ ---------------------------------------------------
+CESM version is branch_tags/TRENDY-2019.n05_ctsm1.0.dev056
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : Externals_CISM.cfg
+Checking status of externals: clm, fates, ptclm, cism, source_cism, rtm, mosart, cime, 
+    ./cime
+        clean sandbox, on branch_tags/cime5.8.3_chint17-04
+    ./components/cism
+        clean sandbox, on cism2_1_68
+    ./components/cism/source_cism
+        clean sandbox, on 9f57475aadf2d807b97b9c20f53e6ddc6daf0dfb
+    ./components/mosart
+        clean sandbox, on mosart1_0_33
+    ./components/rtm
+        clean sandbox, on rtm1_0_68
+    ./src/fates
+        clean sandbox, on fates_s1.8.1_a3.0.0_rev2
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_180611
+2022-08-27 08:07:20: case.build success 
+ ---------------------------------------------------
+2022-08-27 08:17:33: case.submit starting 
+ ---------------------------------------------------
+2022-08-27 08:17:39: case.submit success case.run:5965734.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:5965735.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2022-08-27 08:18:11: case.run starting 
+ ---------------------------------------------------
+2022-08-27 08:18:17: model execution starting 
+ ---------------------------------------------------
