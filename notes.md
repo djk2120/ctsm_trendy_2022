@@ -1,4 +1,4 @@
-*** August 27, 2022
+** August 27, 2022
  - Erik and Peter generated fsurdat, flanduse
  - performed fresh CLM checkout
    - checkout.sh
@@ -7,8 +7,12 @@
    - spinad.sh
    - namelists/spinad
  - setting up git version control
+ - next up:
+   - monitor spinup progress
+   - configure spinPostAD
 
-*** August 2, 2022
+
+** August 2, 2022
  - Sean converted the input data to three stream
  - downloading ndep data from ftp site
  - converting ndep to CLM format via ndep.ipynb
