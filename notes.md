@@ -1,3 +1,11 @@
+### August 29, 2022
+ - spinAD has progressed 600 years
+   - ~10% diseq at 1g/m2 (TOTECOSYSC)
+   - drift = -0.05 PgC/yr
+ - setting up postAD
+   - postad.sh
+   - qcmd -- ./postad.sh > postad.log &
+
 ### August 27, 2022
  - Erik and Peter generated fsurdat, flanduse
  - performed fresh CLM checkout

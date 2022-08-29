@@ -1,0 +1,78 @@
+2022-08-29 11:57:39: xmlchange success <command> ./xmlchange RUN_TYPE=hybrid  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:39: xmlchange success <command> ./xmlchange RUN_REFCASE=TRENDY2022_f09_spinAD  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:39: xmlchange success <command> ./xmlchange RUN_REFDIR=/glade/scratch/djk2120/archive/TRENDY2022_f09_spinAD/rest/0600-01-01-00000  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:40: xmlchange success <command> ./xmlchange RUN_REFDATE=0600-01-01  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:40: xmlchange success <command> ./xmlchange GET_REFCASE=TRUE  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:40: xmlchange success <command> ./xmlchange NTASKS_CPL=2520  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:41: xmlchange success <command> ./xmlchange NTASKS_LND=2520  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:41: xmlchange success <command> ./xmlchange NTASKS_ICE=2520  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:41: xmlchange success <command> ./xmlchange NTASKS_OCN=2520  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:42: xmlchange success <command> ./xmlchange NTASKS_ROF=2520  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:42: xmlchange success <command> ./xmlchange NTASKS_GLC=2520  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:42: xmlchange success <command> ./xmlchange NTASKS_WAV=2520  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:43: xmlchange success <command> ./xmlchange JOB_QUEUE=regular  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:43: xmlchange success <command> ./xmlchange JOB_WALLCLOCK_TIME=12:00:00  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:43: xmlchange success <command> ./xmlchange PROJECT=P93300641  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:44: xmlchange success <command> ./xmlchange RUN_STARTDATE=0000-01-01  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:44: xmlchange success <command> ./xmlchange STOP_OPTION=nyears  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:44: xmlchange success <command> ./xmlchange STOP_N=100  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:44: xmlchange success <command> ./xmlchange RESUBMIT=15  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:45: xmlchange success <command> ./xmlchange DOUT_S=TRUE  </command>
+ ---------------------------------------------------
+2022-08-29 11:57:45: case.setup starting 
+ ---------------------------------------------------
+2022-08-29 11:57:47: case.setup success 
+ ---------------------------------------------------
+2022-08-29 11:57:48: case.build starting 
+ ---------------------------------------------------
+CESM version is branch_tags/TRENDY-2019.n05_ctsm1.0.dev056
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : Externals_CISM.cfg
+Checking status of externals: clm, fates, ptclm, cism, source_cism, rtm, mosart, cime, 
+    ./cime
+        clean sandbox, on branch_tags/cime5.8.3_chint17-04
+    ./components/cism
+        clean sandbox, on cism2_1_68
+    ./components/cism/source_cism
+        clean sandbox, on 9f57475aadf2d807b97b9c20f53e6ddc6daf0dfb
+    ./components/mosart
+        clean sandbox, on mosart1_0_33
+    ./components/rtm
+        clean sandbox, on rtm1_0_68
+    ./src/fates
+        clean sandbox, on fates_s1.8.1_a3.0.0_rev2
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_180611
+2022-08-29 12:05:46: case.build success 
+ ---------------------------------------------------
+2022-08-29 12:05:47: case.submit starting 
+ ---------------------------------------------------
+2022-08-29 12:05:57: case.submit error 
+ERROR: Command: 'qsub -q regular -l walltime=12:00:00 -A P93300641 -v ARGS_FOR_SCRIPT='--resubmit' .case.run' failed with error 'b'qsub: Account is Exceed One Threshold: Standby Queue Disabled. Contact cislhelp@ucar.edu'' from dir '/glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_spinPostAD'
+ ---------------------------------------------------
+2022-08-29 12:08:15: xmlchange success <command> ./xmlchange PROJECT=P08010000  </command>
+ ---------------------------------------------------
+2022-08-29 12:08:54: case.submit starting 
+ ---------------------------------------------------
+2022-08-29 12:09:00: case.submit success case.run:6016048.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:6016049.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------

@@ -28,4 +28,7 @@ model_year_align_ndep   = 1850
 ndep_taxmode = 'cycle'
 stream_fldfilename_ndep = '/glade/scratch/djk2120/trendy2022/ndep/TRENDY2022_Ndep_Monthly_c220802.nc'
 
-finidat='/glade/scratch/djk2120/archive/TRENDY2022_f09_SpinPostAD/rest/0600-01-01-00000/TRENDY2022_f09_SpinPostAD.clm2.r.0600-01-01-00000.nc'
+hist_empty_htapes = .true.
+hist_fincl1 = 'TOTECOSYSC', 'TOTECOSYSN', 'TOTSOMC', 'TOTSOMN', 'TOTVEGC', 'TOTVEGN', 'TLAI', 'GPP', 'CPOOL', 'NPP', 'TWS'
+hist_mfilt = 20
+hist_nhtfrq = -8760
