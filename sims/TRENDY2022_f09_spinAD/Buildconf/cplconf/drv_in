@@ -192,7 +192,7 @@
   scmlon = -999.
   shr_map_dopole = .true.
   single_column = .false.
-  start_type = "startup"
+  start_type = "continue"
   tchkpt_dir = "./timing/checkpoints"
   tfreeze_option = "mushy"
   timing_dir = "./timing"

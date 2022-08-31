@@ -1,7 +1,7 @@
 &modelio
   diri = "/glade/scratch/djk2120/TRENDY2022_f09_spinPostAD/bld/rof"
   diro = "/glade/scratch/djk2120/TRENDY2022_f09_spinPostAD/run"
-  logfile = "rof.log.220829-120859"
+  logfile = "rof.log.6044193.chadmin1.ib0.cheyenne.ucar.edu.220831-071122"
 /
 &pio_inparm
   pio_netcdf_format = "64bit_offset"

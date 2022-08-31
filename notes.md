@@ -1,3 +1,13 @@
+### August 31, 2022
+  - spinPostAD is progressing
+    - <6% diseq after 200 years
+    - drift of 0.015 PgC/yr
+    - does seem to be spending a lot of time queued
+  - preparing S0 scripts
+    - recycle 1901-20 climate, 322 years, 1700-2021
+    - STOP_N = 80, RESUBMIT=2
+    - xmlchange STOP_N=82
+
 ### August 29, 2022
  - spinAD has progressed 600 years
    - ~10% diseq at 1g/m2 (TOTECOSYSC)

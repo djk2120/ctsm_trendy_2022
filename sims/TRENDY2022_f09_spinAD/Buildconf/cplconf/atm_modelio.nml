@@ -1,7 +1,7 @@
 &modelio
   diri = "/glade/scratch/djk2120/TRENDY2022_f09_spinAD/bld/atm"
   diro = "/glade/scratch/djk2120/TRENDY2022_f09_spinAD/run"
-  logfile = "atm.log.5965734.chadmin1.ib0.cheyenne.ucar.edu.220827-081811"
+  logfile = "atm.log.6008836.chadmin1.ib0.cheyenne.ucar.edu.220829-023702"
 /
 &pio_inparm
   pio_netcdf_format = "64bit_offset"
