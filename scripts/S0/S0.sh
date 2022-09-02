@@ -15,14 +15,15 @@ ncar_pylib
 
 
 cd $cimeroot
-./create_newcase --case $caseroot --compset $compset  --res $res --project $project
+./create_newcase --case $caseroot --compset $compset  --res $res --project $project --mach cheyenne
 
 cd $caseroot
 
+yr='0600'
 ./xmlchange RUN_TYPE="hybrid"
 ./xmlchange RUN_REFCASE="TRENDY2022_f09_spinPostAD"
-./xmlchange RUN_REFDIR="/glade/scratch/djk2120/archive/TRENDY2022_f09_spinPostAD/rest/0200-01-01-00000"
-./xmlchange RUN_REFDATE="0200-01-01"
+./xmlchange RUN_REFDIR="/glade/scratch/djk2120/archive/TRENDY2022_f09_spinPostAD/rest/"$yr"-01-01-00000"
+./xmlchange RUN_REFDATE=$yr"-01-01"
 ./xmlchange GET_REFCASE=TRUE
 ./xmlchange NTASKS_CPL=2520
 ./xmlchange NTASKS_LND=2520 
@@ -39,7 +40,7 @@ cd $caseroot
 ./xmlchange STOP_N=107
 ./xmlchange RESUBMIT=2
 ./xmlchange DOUT_S=TRUE
-
+./xmlchange CCSM_CO2_PPMV="276.65"
 ./case.setup
 cp $trendy'user_datm.streams/PI/user_datm.streams'* ./
 cp $trendy'namelists/'$exp'/user_nl'* ./

@@ -1,0 +1,33 @@
+
+<dataSource>
+   GENERIC
+</dataSource>
+<domainInfo>
+  <variableNames>
+     time    time
+        lonc    lon
+        latc    lat
+        area    area
+        mask    mask
+  </variableNames>
+  <filePath>
+     /glade/scratch/djk2120/trendy2022/co2
+  </filePath>
+  <fileNames>
+     fco2_datm_global_simyr_1701-2021_TRENDY_c220831.nc
+  </fileNames>
+</domainInfo>
+<fieldInfo>
+   <variableNames>
+     CO2        co2diag
+   </variableNames>
+   <filePath>
+     /glade/scratch/djk2120/trendy2022/co2
+   </filePath>
+   <fileNames>
+    fco2_datm_global_simyr_1701-2021_TRENDY_c220831.nc
+   </fileNames>
+   <offset>
+      0
+   </offset>
+</fieldInfo>

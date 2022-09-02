@@ -1,6 +1,6 @@
 &clm_inparm
  albice = 0.50,0.30
- co2_ppmv = 284.7
+ co2_ppmv = 276.65
  co2_type = 'constant'
  collapse_urban = .false.
  create_crop_landunit = .true.
@@ -290,6 +290,6 @@
 !#--------------------------------------------------------------------------------------------------------------------------
 !# lnd_in:: Comment:
 !# This namelist was created using the following command-line:
-!#     /glade/work/djk2120/trendy2022/bld/CLM build-namelist -cimeroot /glade/work/djk2120/trendy2022/cime/scripts/Tools/../.. -infile /glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_spinPostAD/Buildconf/clmconf/namelist -csmdata /glade/p/cesmdata/cseg/inputdata -inputdata /glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_spinPostAD/Buildconf/clm.input_data_list -ignore_ic_year -namelist &clm_inparm  start_ymd=00000101 /  -use_case 1850_control -res 0.9x1.25 -clm_start_type startup -envxml_dir /glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_spinPostAD -l_ncpl 48 -configuration clm -structure standard -lnd_frac /glade/p/cesmdata/cseg/inputdata/share/domains/domain.lnd.fv0.9x1.25_gx1v7.151020.nc -glc_nec 10 -co2_ppmv 284.7 -co2_type constant -config /glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_spinPostAD/Buildconf/clmconf/config_cache.xml -bgc bgc -crop -clm_accelerated_spinup off -lnd_tuning_mode clm5_0_CRUv7 -mask gx1v7
+!#     /glade/work/djk2120/trendy2022/bld/CLM build-namelist -cimeroot /glade/work/djk2120/trendy2022/cime/scripts/Tools/../.. -infile /glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_spinPostAD/Buildconf/clmconf/namelist -csmdata /glade/p/cesmdata/cseg/inputdata -inputdata /glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_spinPostAD/Buildconf/clm.input_data_list -ignore_ic_year -namelist &clm_inparm  start_ymd=00000101 /  -use_case 1850_control -res 0.9x1.25 -clm_start_type startup -envxml_dir /glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_spinPostAD -l_ncpl 48 -configuration clm -structure standard -lnd_frac /glade/p/cesmdata/cseg/inputdata/share/domains/domain.lnd.fv0.9x1.25_gx1v7.151020.nc -glc_nec 10 -co2_ppmv 284.7 -co2_type constant -config /glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_spinPostAD/Buildconf/clmconf/config_cache.xml -bgc bgc -crop -co2_ppmv 276.65 -clm_accelerated_spinup off -lnd_tuning_mode clm5_0_CRUv7 -mask gx1v7
 !# For help on options use: /glade/work/djk2120/trendy2022/bld/CLM build-namelist -help
 !#--------------------------------------------------------------------------------------------------------------------------

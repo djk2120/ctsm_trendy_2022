@@ -1,12 +1,45 @@
+
+### September 2, 2022
+  - Spinup is probably fine at 600yrs, will let it go overnight to 800
+  - testing out S0 and S1 scripts
+  
+  - S1 is broken up into three parts
+    - 100 years           S1.sh
+    - 49 years            S1_part2.sh
+    - 2x86 years          S1_part3.sh
+
+  - configuring tether for S1
+
+### September 1, 2022
+  - runs die overnight due to exceeding scratch quota
+    - went on an rm rampage
+      - deleted an important PPE file
+      - oops
+  - resubmitted
+    - progressing well
+
+
 ### August 31, 2022
   - spinPostAD is progressing
     - <6% diseq after 200 years
     - drift of 0.015 PgC/yr
     - does seem to be spending a lot of time queued
   - preparing S0 scripts
-    - recycle 1901-20 climate, 322 years, 1700-2021
-    - STOP_N = 80, RESUBMIT=2
-    - xmlchange STOP_N=82
+    - scripts/S0.sh
+    - recycle 1901-20 climate, 321 years, 1701-2021
+    - made the executive decision to run from 1701, makes way more sense
+    - probably will pickup from year 300 of postAD
+  - preparing S1 scripts
+    - uses a transient compset
+      - double-check datm_in that taxmode='cycle'
+    - preparing co2 timeseries
+  - **spun up with the wrong co2**
+    - accidentally used clm default 284.7
+    - switched to TRENDY PI at postAD year300
+      - ./xmlchange CLM_BLDNML_OPTS="-bgc bgc -crop -co2_ppmv 276.65"
+      - easier to use ./xmlchange CCSM_CO2_PPMV="276.65"
+    - resubmitted
+    
 
 ### August 29, 2022
  - spinAD has progressed 600 years

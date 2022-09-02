@@ -112,3 +112,187 @@ ERROR: Command: 'qsub -q regular -l walltime=12:00:00 -A P93300641 -v ARGS_FOR_S
  ---------------------------------------------------
 2022-08-31 07:11:29: model execution starting 
  ---------------------------------------------------
+2022-08-31 15:35:01: model execution success 
+ ---------------------------------------------------
+2022-08-31 15:35:01: case.run success 
+ ---------------------------------------------------
+2022-08-31 15:36:26: st_archive starting 
+ ---------------------------------------------------
+2022-08-31 15:36:33: st_archive success 
+ ---------------------------------------------------
+2022-08-31 15:36:33: case.submit starting 
+ ---------------------------------------------------
+2022-08-31 15:36:37: case.submit success case.run:6077790.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:6077792.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2022-08-31 15:52:31: xmlchange success <command> ./xmlchange JOB_QUEUE=premium  </command>
+ ---------------------------------------------------
+2022-08-31 15:52:37: xmlchange success <command> ./xmlchange RESUBMIT=1  </command>
+ ---------------------------------------------------
+2022-08-31 15:53:05: case.submit starting 
+ ---------------------------------------------------
+2022-08-31 15:53:07: case.submit error 
+ERROR: Command /glade/work/djk2120/trendy2022/bld/build-namelist failed rc=255
+out=CLM adding use_case 1850_control defaults for var 'irrigate' with val '.false.'
+CLM adding use_case 1850_control defaults for var 'ndep_taxmode' with val 'cycle'
+CLM adding use_case 1850_control defaults for var 'ndep_varlist' with val 'NDEP_month'
+CLM adding use_case 1850_control defaults for var 'sim_year' with val '1850'
+CLM adding use_case 1850_control defaults for var 'sim_year_range' with val 'constant'
+CLM adding use_case 1850_control defaults for var 'stream_fldfilename_ndep' with val 'lnd/clm2/ndepdata/fndep_clm_WACCM6_CMIP6piControl001_y21-50avg_1850monthly_0.95x1.25_c180802.nc'
+CLM adding use_case 1850_control defaults for var 'stream_year_first_ndep' with val '1850'
+CLM adding use_case 1850_control defaults for var 'stream_year_first_popdens' with val '1850'
+CLM adding use_case 1850_control defaults for var 'stream_year_first_urbantv' with val '1850'
+CLM adding use_case 1850_control defaults for var 'stream_year_last_ndep' with val '1850'
+CLM adding use_case 1850_control defaults for var 'stream_year_last_popdens' with val '1850'
+CLM adding use_case 1850_control defaults for var 'stream_year_last_urbantv' with val '1850'
+CLM adding use_case 1850_control defaults for var 'use_case_desc' with val 'Conditions to simulate 1850 land-use'
+err=ERROR : CLM build-namelist::CLMBuildNamelist::setup_logic_co2_type() : co2_type set on namelist as well as -co2_type option.
+ ---------------------------------------------------
+2022-08-31 15:53:39: case.submit starting 
+ ---------------------------------------------------
+2022-08-31 15:53:45: case.submit success case.run:6078193.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:6078194.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2022-08-31 16:05:26: case.build starting 
+ ---------------------------------------------------
+2022-08-31 16:05:43: case.build error 
+ERROR: Error gathering provenance information from manage_externals.
+
+manage_externals error message:
+
+
+manage_externals output:
+    Processing externals description file : Externals.cfg
+    Processing externals description file : Externals_CLM.cfg
+    Processing externals description file : Externals_CISM.cfg
+    Checking status of externals: clm, fates, dictionary keys changed during iteration
+
+To solve this, either:
+
+(1) Find and fix the problem: From /glade/work/djk2120/trendy2022, try to get this command to work:
+    manage_externals/checkout_externals --status --verbose --no-logging
+
+(2) If you don't need provenance information, rebuild with --skip-provenance-check
+
+ ---------------------------------------------------
+2022-08-31 16:05:56: case.build starting 
+ ---------------------------------------------------
+2022-08-31 16:06:05: case.build error 
+ERROR: Error gathering provenance information from manage_externals.
+
+manage_externals error message:
+
+
+manage_externals output:
+    Processing externals description file : Externals.cfg
+    Processing externals description file : Externals_CLM.cfg
+    Processing externals description file : Externals_CISM.cfg
+    Checking status of externals: clm, fates, dictionary keys changed during iteration
+
+To solve this, either:
+
+(1) Find and fix the problem: From /glade/work/djk2120/trendy2022, try to get this command to work:
+    manage_externals/checkout_externals --status --verbose --no-logging
+
+(2) If you don't need provenance information, rebuild with --skip-provenance-check
+
+ ---------------------------------------------------
+2022-08-31 16:06:28: case.build starting 
+ ---------------------------------------------------
+CESM version is branch_tags/TRENDY-2019.n05_ctsm1.0.dev056
+Processing externals description file : Externals.cfg
+Processing externals description file : Externals_CLM.cfg
+Processing externals description file : Externals_CISM.cfg
+Checking status of externals: clm, fates, ptclm, cism, source_cism, rtm, mosart, cime, 
+    ./cime
+        clean sandbox, on branch_tags/cime5.8.3_chint17-04
+    ./components/cism
+        clean sandbox, on cism2_1_68
+    ./components/cism/source_cism
+        clean sandbox, on 9f57475aadf2d807b97b9c20f53e6ddc6daf0dfb
+    ./components/mosart
+        clean sandbox, on mosart1_0_33
+    ./components/rtm
+        clean sandbox, on rtm1_0_68
+    ./src/fates
+        clean sandbox, on fates_s1.8.1_a3.0.0_rev2
+    ./tools/PTCLM
+        clean sandbox, on PTCLM2_180611
+2022-08-31 16:06:44: case.build success 
+ ---------------------------------------------------
+2022-08-31 16:10:05: xmlchange success <command> ./xmlchange CLM_BLDNML_OPTS=-bgc bgc -crop -co2_ppmv 276.65  </command>
+ ---------------------------------------------------
+2022-08-31 16:12:52: case.submit starting 
+ ---------------------------------------------------
+2022-08-31 16:12:59: case.submit success case.run:6078648.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:6078650.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2022-08-31 16:35:18: case.run starting 
+ ---------------------------------------------------
+2022-08-31 16:35:24: model execution starting 
+ ---------------------------------------------------
+2022-08-31 19:36:11: model execution success 
+ ---------------------------------------------------
+2022-08-31 19:36:11: case.run error 
+ERROR: RUN FAIL: Command 'mpiexec_mpt -p "%g:"  -np 2556  omplace -tm open64  /glade/scratch/djk2120/TRENDY2022_f09_spinPostAD/bld/cesm.exe   >> cesm.log.$LID 2>&1 ' failed
+See log file for details: /glade/scratch/djk2120/TRENDY2022_f09_spinPostAD/run/cesm.log.6078648.chadmin1.ib0.cheyenne.ucar.edu.220831-163518
+ ---------------------------------------------------
+2022-09-01 10:24:34: case.submit starting 
+ ---------------------------------------------------
+2022-09-01 10:24:41: case.submit success case.run:6103748.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:6103749.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2022-09-01 10:54:57: case.run starting 
+ ---------------------------------------------------
+2022-09-01 10:55:02: model execution starting 
+ ---------------------------------------------------
+2022-09-01 11:08:13: case.submit starting 
+ ---------------------------------------------------
+2022-09-01 11:08:29: case.submit success case.run:6105434.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:6105437.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2022-09-01 11:34:43: case.run starting 
+ ---------------------------------------------------
+2022-09-01 11:34:49: model execution starting 
+ ---------------------------------------------------
+2022-09-01 19:43:29: model execution success 
+ ---------------------------------------------------
+2022-09-01 19:43:29: case.run success 
+ ---------------------------------------------------
+2022-09-01 19:44:04: st_archive starting 
+ ---------------------------------------------------
+2022-09-01 19:44:11: st_archive success 
+ ---------------------------------------------------
+2022-09-01 19:44:11: case.submit starting 
+ ---------------------------------------------------
+2022-09-01 19:44:11: case.submit success case.run:6116798.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:6116799.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2022-09-01 19:56:31: case.run starting 
+ ---------------------------------------------------
+2022-09-01 19:56:36: model execution starting 
+ ---------------------------------------------------
+2022-09-02 03:52:15: model execution success 
+ ---------------------------------------------------
+2022-09-02 03:52:15: case.run success 
+ ---------------------------------------------------
+2022-09-02 03:52:48: st_archive starting 
+ ---------------------------------------------------
+2022-09-02 03:52:56: st_archive success 
+ ---------------------------------------------------
+2022-09-02 07:16:43: xmlchange success <command> ./xmlchange RESUBMIT=2  </command>
+ ---------------------------------------------------
+2022-09-02 07:16:50: case.submit starting 
+ ---------------------------------------------------
+2022-09-02 07:16:57: case.submit success case.run:6136039.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:6136040.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------
+2022-09-02 07:17:17: case.run starting 
+ ---------------------------------------------------
+2022-09-02 07:17:22: model execution starting 
+ ---------------------------------------------------
+2022-09-02 15:19:36: model execution success 
+ ---------------------------------------------------
+2022-09-02 15:19:36: case.run success 
+ ---------------------------------------------------
+2022-09-02 15:20:04: st_archive starting 
+ ---------------------------------------------------
+2022-09-02 15:20:12: st_archive success 
+ ---------------------------------------------------
+2022-09-02 15:20:12: case.submit starting 
+ ---------------------------------------------------
+2022-09-02 15:20:19: case.submit success case.run:6146658.chadmin1.ib0.cheyenne.ucar.edu, case.st_archive:6146660.chadmin1.ib0.cheyenne.ucar.edu
+ ---------------------------------------------------

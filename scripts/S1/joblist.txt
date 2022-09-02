@@ -1,0 +1,3 @@
+S1_part1,/glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_S1,none,submitted
+S1_part2,/glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_S1,S1_part2.sh,queued
+S1_part3,/glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_S1,S1_part3.sh,waiting
