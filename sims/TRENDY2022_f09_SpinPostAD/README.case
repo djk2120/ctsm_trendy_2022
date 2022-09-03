@@ -1,0 +1,68 @@
+2022-08-11 10:41:17: ./create_clone --case /glade/u/home/djk2120/ctsm_trendy_2022//sims/TRENDY2022_f09_SpinPostAD --clone /glade/u/home/dll/TRENDY2020Simulations/TRENDY2020_SpinPostAD --cime-output-root /glade/scratch/djk2120
+ ---------------------------------------------------
+2022-08-11 10:41:17: Compset longname is 1850_DATM%CRUv7_CLM50%BGC-CROP_SICE_SOCN_MOSART_CISM2%NOEVOLVE_SWAV_SIAC_SESP
+ ---------------------------------------------------
+2022-08-11 10:41:17: Compset specification file is /glade/work/djk2120/trendy2021/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2022-08-11 10:41:17: Pes     specification file is /glade/work/djk2120/trendy2021/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2020-07-28 17:49:27: ./create_clone --case /glade/u/home/dll/TRENDY2020Simulations/TRENDY2020_SpinPostAD --clone /glade/u/home/dll/TRENDY2019Simulations/TRENDY2019_SpinPostAD
+ ---------------------------------------------------
+2020-07-28 17:49:27: Compset longname is 1850_DATM%CRUv7_CLM50%BGC-CROP_SICE_SOCN_MOSART_CISM2%NOEVOLVE_SWAV_SIAC_SESP
+ ---------------------------------------------------
+2020-07-28 17:49:27: Compset specification file is /glade/work/dll/TRENDY2019_src/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2020-07-28 17:49:27: Pes     specification file is /glade/work/dll/TRENDY2019_src/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2019-08-20 08:55:55: ./create_newcase --case /glade/u/home/dll/TRENDY2019Simulations/TRENDY2019_SpinPostAD --compset I1850Clm50BgcCropCru --res f09_g17
+ ---------------------------------------------------
+2019-08-20 08:55:55: Compset longname is 1850_DATM%CRUv7_CLM50%BGC-CROP_SICE_SOCN_MOSART_CISM2%NOEVOLVE_SWAV_SIAC_SESP
+ ---------------------------------------------------
+2019-08-20 08:55:55: Compset specification file is /glade/work/dll/TRENDY2019_src/cime_config/config_compsets.xml
+ ---------------------------------------------------
+2019-08-20 08:55:55: Pes     specification file is /glade/work/dll/TRENDY2019_src/cime_config/config_pes.xml
+ ---------------------------------------------------
+2019-08-20 08:55:55: Forcing is 1850
+ ---------------------------------------------------
+2019-08-20 08:55:55: Using None coupler instances
+ ---------------------------------------------------
+2019-08-20 08:55:55: Component ATM is  Data driven ATM  CLM CRU NCEP v7 data set 
+ ---------------------------------------------------
+2019-08-20 08:55:55: ATM_GRID is 0.9x1.25
+ ---------------------------------------------------
+2019-08-20 08:55:55: Component LND is clm5.0:BGC (vert. resol. CN and methane) with prognostic crop:
+ ---------------------------------------------------
+2019-08-20 08:55:55: LND_GRID is 0.9x1.25
+ ---------------------------------------------------
+2019-08-20 08:55:55: Component ICE is Stub ice component
+ ---------------------------------------------------
+2019-08-20 08:55:55: ICE_GRID is null
+ ---------------------------------------------------
+2019-08-20 08:55:55: Component OCN is Stub ocn component
+ ---------------------------------------------------
+2019-08-20 08:55:55: OCN_GRID is null
+ ---------------------------------------------------
+2019-08-20 08:55:55: Component ROF is MOSART: MOdel for Scale Adaptive River Transport
+ ---------------------------------------------------
+2019-08-20 08:55:55: ROF_GRID is r05
+ ---------------------------------------------------
+2019-08-20 08:55:55: Component GLC is cism2 (default, higher-order, can run in parallel):cism ice evolution turned off (this is the standard configuration unless you're explicitly interested in ice evolution):
+ ---------------------------------------------------
+2019-08-20 08:55:55: GLC_GRID is gland4
+ ---------------------------------------------------
+2019-08-20 08:55:55: Component WAV is Stub wave component
+ ---------------------------------------------------
+2019-08-20 08:55:55: WAV_GRID is null
+ ---------------------------------------------------
+2019-08-20 08:55:55: Component IAC is Stub iac component
+ ---------------------------------------------------
+2019-08-20 08:55:55: IAC_GRID is null
+ ---------------------------------------------------
+2019-08-20 08:55:55: Component ESP is Stub external system processing (ESP) component
+ ---------------------------------------------------
+2019-08-20 08:55:55: ESP_GRID is None
+ ---------------------------------------------------

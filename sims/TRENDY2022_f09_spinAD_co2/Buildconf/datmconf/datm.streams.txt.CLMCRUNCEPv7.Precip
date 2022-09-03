@@ -1,0 +1,52 @@
+
+<dataSource>
+   GENERIC
+</dataSource>
+<domainInfo>
+  <variableNames>
+     time    time
+        xc      lon
+        yc      lat
+        area    area
+        mask    mask
+  </variableNames>
+  <filePath>
+     /glade/scratch/djk2120/trendy2022/three_stream
+  </filePath>
+  <fileNames>
+     domain.crujra_v2.3_0.5x0.5.c220801.nc
+  </fileNames>
+</domainInfo>
+<fieldInfo>
+   <variableNames>
+     PRECTmms precn
+   </variableNames>
+   <filePath>
+     /glade/scratch/djk2120/trendy2022/three_stream
+   </filePath>
+   <fileNames>
+    clmforc.TRENDY.c2022_0.5x0.5.Prec.1901.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1902.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1903.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1904.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1905.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1906.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1907.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1908.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1909.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1910.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1911.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1912.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1913.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1914.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1915.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1916.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1917.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1918.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1919.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1920.nc
+   </fileNames>
+   <offset>
+      0
+   </offset>
+</fieldInfo>

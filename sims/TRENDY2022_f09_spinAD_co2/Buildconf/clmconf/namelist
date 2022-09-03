@@ -1,0 +1,26 @@
+&comp_inparm 
+
+finidat = 'TRENDY2022_f09_spinPostAD.clm2.r.0300-01-01-00000.nc'
+fsurdat='/glade/p/cesmdata/cseg/inputdata/lnd/clm2/surfdata_map/ctsm5.1.dev052/surfdata_0.9x1.25_hist_78pfts_CMIP6_simyr1700_c220825.nc'
+
+
+
+use_fertilizer = .false.
+
+use_init_interp = .true.
+
+do_grossunrep=.false.
+
+reseed_dead_plants = .true.
+
+model_year_align_ndep   = 1850
+
+ndep_taxmode = 'cycle'
+
+stream_fldfilename_ndep = '/glade/scratch/djk2120/trendy2022/ndep/TRENDY2022_Ndep_Monthly_c220802.nc'
+
+
+
+
+
+/ 

@@ -1,0 +1,4 @@
+*~
+*.log
+*sims*
+.ipynb_checkpoints/
