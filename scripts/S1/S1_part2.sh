@@ -5,5 +5,5 @@ caseroot=$casedir'TRENDY2022_f09_'$exp
 
 #running from 1801-1849, as previous
 cd $caseroot
-./xmlchange STOP_N=2 #49
+./xmlchange STOP_N=49
 

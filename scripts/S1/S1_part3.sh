@@ -5,8 +5,8 @@ caseroot=$casedir'TRENDY2022_f09_'$exp
 
 #running from 1850-2021
 cd $caseroot
-./xmlchange STOP_N=1 #86
-./xmlchange RESUBMIT=1 
-cp user_nl_clm.1850-2021 user_nl_clm
+./xmlchange STOP_N=86
+./xmlchange RESUBMIT=1
+cp user_nl_clm.1850-2021 user_nl_clm  #adding transient pop dens
 
 

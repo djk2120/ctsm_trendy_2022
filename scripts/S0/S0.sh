@@ -19,7 +19,7 @@ cd $cimeroot
 
 cd $caseroot
 
-yr='0600'
+yr='0800'
 ./xmlchange RUN_TYPE="hybrid"
 ./xmlchange RUN_REFCASE="TRENDY2022_f09_spinPostAD"
 ./xmlchange RUN_REFDIR="/glade/scratch/djk2120/archive/TRENDY2022_f09_spinPostAD/rest/"$yr"-01-01-00000"
@@ -46,4 +46,5 @@ cp $trendy'user_datm.streams/PI/user_datm.streams'* ./
 cp $trendy'namelists/'$exp'/user_nl'* ./
 
 ./case.build
+./case.submit
 

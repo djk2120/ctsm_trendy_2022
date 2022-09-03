@@ -1,4 +1,7 @@
 
+**remember to change start dates for S0/S1**
+
+
 ### September 2, 2022
   - Spinup is probably fine at 600yrs, will let it go overnight to 800
   - testing out S0 and S1 scripts
@@ -9,6 +12,7 @@
     - 2x86 years          S1_part3.sh
 
   - configuring tether for S1
+    - /glade/u/home/djk2120/tether/tether.sh joblist.txt ../../cheyenne.template &> S1_part1.log &
 
 ### September 1, 2022
   - runs die overnight due to exceeding scratch quota

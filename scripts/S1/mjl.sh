@@ -2,7 +2,8 @@ casedir='/glade/u/home/djk2120/ctsm_trendy_2022/sims/'
 exp='S1'
 caseroot=$casedir'TRENDY2022_f09_'$exp
 
-helpers=( 'none' 'S1_part2.sh' 'S1_part3.sh' )
+d=$(pwd)
+helpers=( 'none' $d'/S1_part2.sh' $d'/S1_part3.sh' )
 
 :>joblist.txt
 i=0
