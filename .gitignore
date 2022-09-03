@@ -1,3 +1,6 @@
 *.log
 *.o*
 *.job
+*sims*
+.ipynb_checkpoints/
+*~
