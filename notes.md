@@ -1,6 +1,15 @@
 
-**remember to change start dates for S0/S1**
 
+
+### September 3, 2022
+  - spinup looking good
+    - <5% diseq (TOTECOSYSC 1g/m2)
+  - running S0:
+    - qcmd -- ./S0.sh > S0.log &
+  - running S1:
+    - qcmd -- ./S1.sh > S1.log &  (creates,builds case)
+    - bash mjl.sh   (makes joblist.txt)
+    - /glade/u/home/djk2120/tether/tether.sh joblist.txt ../../cheyenne.template &> S1_part1.log &  (initiates 3job sequence)
 
 ### September 2, 2022
   - Spinup is probably fine at 600yrs, will let it go overnight to 800

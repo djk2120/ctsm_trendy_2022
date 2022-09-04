@@ -1,0 +1,156 @@
+
+<dataSource>
+   GENERIC
+</dataSource>
+<domainInfo>
+  <variableNames>
+     time    time
+        xc      lon
+        yc      lat
+        area    area
+        mask    mask
+  </variableNames>
+  <filePath>
+     /glade/scratch/djk2120/trendy2022/three_stream
+  </filePath>
+  <fileNames>
+     domain.crujra_v2.3_0.5x0.5.c220801.nc
+  </fileNames>
+</domainInfo>
+<fieldInfo>
+   <variableNames>
+     TBOT     tbot
+        WIND     wind
+        QBOT     shum
+        PSRF     pbot
+   </variableNames>
+   <filePath>
+     /glade/scratch/djk2120/trendy2022/three_stream
+   </filePath>
+   <fileNames>
+    clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1901.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1902.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1903.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1904.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1905.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1906.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1907.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1908.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1909.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1910.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1911.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1912.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1913.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1914.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1915.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1916.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1917.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1918.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1919.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1920.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1921.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1922.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1923.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1924.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1925.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1926.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1927.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1928.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1929.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1930.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1931.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1932.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1933.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1934.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1935.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1936.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1937.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1938.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1939.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1940.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1941.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1942.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1943.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1944.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1945.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1946.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1947.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1948.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1949.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1950.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1951.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1952.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1953.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1954.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1955.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1956.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1957.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1958.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1959.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1960.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1961.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1962.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1963.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1964.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1965.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1966.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1967.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1968.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1969.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1970.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1971.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1972.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1973.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1974.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1975.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1976.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1977.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1978.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1979.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1980.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1981.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1982.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1983.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1984.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1985.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1986.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1987.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1988.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1989.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1990.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1991.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1992.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1993.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1994.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1995.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1996.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1997.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1998.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.1999.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2000.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2001.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2002.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2003.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2004.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2005.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2006.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2007.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2008.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2009.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2010.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2011.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2012.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2013.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2014.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2015.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2016.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2017.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2018.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2019.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2020.nc
+clmforc.TRENDY.c2022_0.5x0.5.TPQWL.2021.nc
+   </fileNames>
+   <offset>
+      0
+   </offset>
+</fieldInfo>

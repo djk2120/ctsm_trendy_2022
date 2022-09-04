@@ -1,0 +1,153 @@
+
+<dataSource>
+   GENERIC
+</dataSource>
+<domainInfo>
+  <variableNames>
+     time    time
+        xc      lon
+        yc      lat
+        area    area
+        mask    mask
+  </variableNames>
+  <filePath>
+     /glade/scratch/djk2120/trendy2022/three_stream
+  </filePath>
+  <fileNames>
+     domain.crujra_v2.3_0.5x0.5.c220801.nc
+  </fileNames>
+</domainInfo>
+<fieldInfo>
+   <variableNames>
+     PRECTmms precn
+   </variableNames>
+   <filePath>
+     /glade/scratch/djk2120/trendy2022/three_stream
+   </filePath>
+   <fileNames>
+    clmforc.TRENDY.c2022_0.5x0.5.Prec.1901.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1902.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1903.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1904.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1905.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1906.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1907.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1908.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1909.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1910.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1911.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1912.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1913.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1914.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1915.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1916.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1917.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1918.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1919.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1920.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1921.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1922.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1923.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1924.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1925.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1926.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1927.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1928.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1929.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1930.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1931.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1932.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1933.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1934.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1935.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1936.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1937.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1938.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1939.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1940.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1941.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1942.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1943.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1944.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1945.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1946.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1947.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1948.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1949.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1950.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1951.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1952.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1953.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1954.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1955.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1956.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1957.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1958.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1959.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1960.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1961.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1962.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1963.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1964.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1965.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1966.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1967.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1968.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1969.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1970.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1971.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1972.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1973.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1974.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1975.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1976.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1977.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1978.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1979.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1980.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1981.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1982.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1983.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1984.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1985.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1986.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1987.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1988.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1989.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1990.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1991.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1992.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1993.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1994.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1995.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1996.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1997.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1998.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.1999.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2000.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2001.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2002.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2003.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2004.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2005.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2006.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2007.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2008.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2009.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2010.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2011.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2012.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2013.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2014.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2015.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2016.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2017.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2018.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2019.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2020.nc
+clmforc.TRENDY.c2022_0.5x0.5.Prec.2021.nc
+   </fileNames>
+   <offset>
+      0
+   </offset>
+</fieldInfo>

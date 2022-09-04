@@ -1,0 +1,154 @@
+
+<dataSource>
+   GENERIC
+</dataSource>
+<domainInfo>
+  <variableNames>
+     time    time
+        xc      lon
+        yc      lat
+        area    area
+        mask    mask
+  </variableNames>
+  <filePath>
+     /glade/scratch/djk2120/trendy2022/three_stream
+  </filePath>
+  <fileNames>
+     domain.crujra_v2.3_0.5x0.5.c220801.nc
+  </fileNames>
+</domainInfo>
+<fieldInfo>
+   <variableNames>
+     FSDS_DIRECT  swdndr
+     FSDS_DIFFUSE swdndf
+   </variableNames>
+   <filePath>
+     /glade/scratch/djk2120/trendy2022/three_stream
+   </filePath>
+   <fileNames>
+    clmforc.TRENDY.c2022_0.5x0.5.Solr.1901.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1902.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1903.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1904.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1905.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1906.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1907.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1908.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1909.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1910.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1911.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1912.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1913.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1914.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1915.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1916.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1917.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1918.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1919.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1920.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1921.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1922.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1923.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1924.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1925.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1926.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1927.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1928.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1929.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1930.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1931.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1932.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1933.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1934.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1935.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1936.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1937.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1938.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1939.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1940.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1941.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1942.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1943.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1944.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1945.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1946.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1947.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1948.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1949.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1950.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1951.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1952.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1953.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1954.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1955.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1956.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1957.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1958.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1959.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1960.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1961.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1962.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1963.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1964.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1965.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1966.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1967.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1968.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1969.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1970.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1971.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1972.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1973.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1974.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1975.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1976.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1977.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1978.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1979.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1980.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1981.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1982.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1983.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1984.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1985.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1986.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1987.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1988.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1989.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1990.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1991.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1992.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1993.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1994.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1995.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1996.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1997.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1998.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.1999.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2000.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2001.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2002.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2003.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2004.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2005.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2006.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2007.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2008.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2009.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2010.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2011.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2012.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2013.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2014.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2015.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2016.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2017.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2018.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2019.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2020.nc
+clmforc.TRENDY.c2022_0.5x0.5.Solr.2021.nc
+   </fileNames>
+   <offset>
+      0
+   </offset>
+</fieldInfo>
