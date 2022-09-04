@@ -7,6 +7,7 @@
     - 1861-1900 (40)     ...
     - 1901-1960 (60)     ... 
     - 1961-2021 (61)
+  - /glade/u/home/djk2120/tether/tether.sh joblist.txt ../../cheyenne.template &> S2_part1.log &
 
 ### September 3, 2022
   - spinup looking good
