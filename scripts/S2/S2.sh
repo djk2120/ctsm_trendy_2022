@@ -1,4 +1,6 @@
 #!/bin/bash
+## run the first 150 years of S2 (1701-1850)
+
 cimeroot='/glade/work/djk2120/trendy2022/cime/scripts/'
 trendy='/glade/u/home/djk2120/ctsm_trendy_2022/'
 compset='HIST_DATM%CRUv7_CLM50%BGC-CROP_SICE_SOCN_MOSART_CISM2%NOEVOLVE_SWAV'
@@ -36,15 +38,16 @@ yr="0800"
 ./xmlchange PROJECT=$project
 ./xmlchange RUN_STARTDATE="1701-01-01"
 ./xmlchange STOP_OPTION="nyears"
-./xmlchange STOP_N=100
-./xmlchange RESUBMIT=0
+./xmlchange STOP_N=75
+./xmlchange RESUBMIT=1
 ./xmlchange DOUT_S=TRUE
 
 ./case.setup
-cp $trendy'user_datm.streams/PI/user_datm.streams'* ./                    #PI climate
+cp $trendy'user_datm.streams/tx/user_datm.streams'* ./                    #transient climate
 cp $trendy'user_datm.streams/tx/user_datm.streams.txt.co2tseries.20tr' ./ #transient CO2
 cp $trendy'namelists/'$exp'/user_nl'* ./
-cp user_nl_clm.1701-1849 user_nl_clm
+cp user_nl_clm.1701-1850 user_nl_clm
+cp user_nl_datm.1701-1850 user_nl_datm
 
 ./case.build
 
