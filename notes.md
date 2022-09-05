@@ -1,3 +1,11 @@
+### September 5, 2022
+  - S2 and S3 crash
+    - at different points
+  - increasing S3 to 100 nodes
+    - rm S3 case
+    - qcmd -- ./S3.sh
+  - nixing the 1860 switchout for both
+
 
 ### September 4, 2022
   - create tx user.datm
@@ -8,6 +16,10 @@
     - 1901-1960 (60)     ... 
     - 1961-2021 (61)
   - /glade/u/home/djk2120/tether/tether.sh joblist.txt ../../cheyenne.template &> S2_part1.log &
+  - S3 is basically identical to S2
+    - except for flanduse in the user_nl_clm
+  - /glade/u/home/djk2120/tether/tether.sh joblist.txt ../../cheyenne.template &> S3_part1.log &
+
 
 ### September 3, 2022
   - spinup looking good
