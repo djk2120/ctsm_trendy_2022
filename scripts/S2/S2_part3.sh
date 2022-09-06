@@ -8,10 +8,17 @@ caseroot=$casedir$casename
 
 cd $caseroot
 ./xmlchange STOP_N=60
+#need python 3.7.9 for cime
+module load python
+module load ncarenv
+ncar_pylib
 
 cp user_nl_datm.1901-2021 user_nl_datm
 cd '/glade/scratch/djk2120/'$caseroot'/run'
 rm *.bin
 
 cd $caseroot
+
+./case.setup --reset
+./case.build --clean
 
