@@ -14,7 +14,7 @@ cd $caseroot
 cp user_nl_clm.1851-2021 user_nl_clm
 cp user_nl_datm.1851-1900 user_nl_datm
 
-cd '/glade/scratch/djk2120/'$caseroot'/run'
+cd '/glade/scratch/djk2120/'$casename'/run'
 rm *.bin
 
 cd $caseroot

@@ -1,3 +1,10 @@
+### September 6, 2022
+  - Had a mistake in S2/S3
+    - needed ./xmlchange DATM_CLMNCEP_YR_END=2021
+    - restage 1901 restarts
+      - cp /glade/scratch/djk2120/archive/TRENDY2022_f09_S2/rest/1901-01-01-00000/* ./
+    
+
 ### September 5, 2022
   - S2 and S3 crash
     - at different points
@@ -5,6 +12,8 @@
     - rm S3 case
     - qcmd -- ./S3.sh
   - nixing the 1860 switchout for both
+  - S2 crashed coming out of 1900
+    - was not removing .bin files correctly
 
 
 ### September 4, 2022
