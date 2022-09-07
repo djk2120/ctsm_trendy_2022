@@ -1,4 +1,4 @@
 S3_part1,/glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_S3,none,submitted
-S3_part2,/glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_S3,/glade/u/home/djk2120/ctsm_trendy_2022/scripts/S3/S3_part2.sh,queued
-S3_part3,/glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_S3,/glade/u/home/djk2120/ctsm_trendy_2022/scripts/S3/S3_part3.sh,waiting
+S3_part2,/glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_S3,/glade/u/home/djk2120/ctsm_trendy_2022/scripts/S3/S3_part2.sh,submitted
+S3_part3,/glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_S3,/glade/u/home/djk2120/ctsm_trendy_2022/scripts/S3/S3_part3.sh,queued
 S3_part4,/glade/u/home/djk2120/ctsm_trendy_2022/sims/TRENDY2022_f09_S3,/glade/u/home/djk2120/ctsm_trendy_2022/scripts/S3/S3_part4.sh,waiting
