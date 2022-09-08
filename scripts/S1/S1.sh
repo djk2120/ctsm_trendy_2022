@@ -44,7 +44,7 @@ yr="0800"
 cp $trendy'user_datm.streams/PI/user_datm.streams'* ./                    #PI climate
 cp $trendy'user_datm.streams/tx/user_datm.streams.txt.co2tseries.20tr' ./ #transient CO2
 cp $trendy'namelists/'$exp'/user_nl'* ./
-cp user_nl_clm.1701-1849 user_nl_clm
+cp user_nl_clm.1701-1850 user_nl_clm
 
 ./case.build
 

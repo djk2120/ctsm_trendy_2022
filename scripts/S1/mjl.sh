@@ -3,7 +3,7 @@ exp='S1'
 caseroot=$casedir'TRENDY2022_f09_'$exp
 
 d=$(pwd)
-helpers=( 'none' $d'/S1_part2.sh' $d'/S1_part3.sh' )
+helpers=( 'none' $d'/S1_part2.sh' $d'/S1_part3.sh' $d'/S1_part4.sh' )
 
 :>joblist.txt
 i=0

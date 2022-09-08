@@ -3,7 +3,7 @@ casedir='/glade/u/home/djk2120/ctsm_trendy_2022/sims/'
 exp='S1'
 caseroot=$casedir'TRENDY2022_f09_'$exp
 
-#running from 1801-1849, as previous
+#running from 1801-1850, as previous
 cd $caseroot
-./xmlchange STOP_N=49
+./xmlchange STOP_N=50
 
