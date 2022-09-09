@@ -1,3 +1,12 @@
+### September 9, 2022
+  - Post-processing
+  [ ] S0
+
+
+### September 8, 2022
+  - Had a mistake in S1
+    - wasnt using the CO2 stream until 1850
+
 ### September 6, 2022
   - Had a mistake in S2/S3
     - needed ./xmlchange DATM_CLMNCEP_YR_END=2021
